@@ -1,0 +1,415 @@
+.hero-section {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 72px;
+}
+
+.to-left {
+    display: grid;
+    width: 50%;
+    gap: 18px;
+}
+
+.to-left h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #161312;
+    letter-spacing: 2px;
+}
+
+.to-lef p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    width: 50%;
+}
+
+.primary-cta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.primary-cta button {
+    background-color: #1D9BF0;
+    min-width: 165px;
+    height: 56px;
+    border: none;
+    padding: 16px, 32px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
+    cursor: pointer;
+    text-align: center;
+}
+
+.primary-cta button span {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.to-right {
+    display: flex;
+    left: 105px;
+    width: 40%;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.background-circle {
+    position: absolute;
+    width: 459px;
+    height: 459px;
+    left: 105px;
+    background: #161312;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.hero-image {
+    z-index: 1;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    margin-top: 18px;
+}
+
+.jobs {
+    display: flex;
+    gap: 18px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    padding: 0.3em 5em;
+}
+
+.frames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.jobs-frame {
+    width: 295px;
+    height: 302px;
+    background-color: #CCD6DD;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.top-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1em;
+    position: relative;
+    margin-top: 1em;
+}
+
+.job-type-bkg {
+    background-color: #161312;
+    padding: 6px 15px;
+    color: #CCD6DD;
+    text-align: center;
+
+}
+
+.minute {
+    color: #161312;
+    opacity: 60%;
+    font-size: 12px;
+    left: 100%;
+}
+
+.job-title {
+    margin-top: 9px;
+    justify-content: center;
+    display: grid;
+    place-content: center;
+}
+
+.job-description {
+    height: 112px;
+    width: 248px;
+    margin-top: 18px;
+
+}
+
+.job-description span {
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.apply-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 36px;
+    padding: 0 5px;
+}
+
+.sec-cta2 {
+    border: 2px solid #1D9BF0;
+    border-radius: 4px;
+    width: 120px;
+    padding: 7px 0;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(0px 2px 4px rgba(136, 144, 194, 0.2)) drop-shadow(0px 5px 15px rgba(37, 44, 97, 0.15));
+    cursor: pointer;
+}
+
+.sec-cta2 button {
+    padding: 2px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tools-skills {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: flex-start;
+    margin-top: 18px;
+}
+
+.left-tools {
+    width: 45%;
+    align-items: flex-start;
+
+}
+
+.background-tools {
+    display: flex;
+    width: 502px;
+    height: 294px;
+    background: rgba(22, 19, 18, 0.8);
+    border-radius: 0px 80px 0px 0px;
+    margin-top: 36px;
+
+}
+
+.skill-set-bord {
+    position: absolute;
+    width: 226px;
+    height: 64px;
+    background: #FFFFFF;
+    position: absolute;
+    align-items: center;
+    left: 309.5px;
+    margin-top: 200px;
+    mix-blend-mode: hard-light;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.skill-set-bord p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-tools {
+    width: 45%;
+    left: 105px;
+    display: grid;
+    justify-content: flex-start;
+    position: relative;
+    gap: 18px;
+}
+
+.content {
+    display: grid;
+    gap: 18px;
+}
+
+.global-talent {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 18px;
+    gap: 72px;
+    padding: 0 25px;
+}
+
+.global-talent .left {
+    display: grid;
+    gap: 18px;
+}
+
+.global-talent .right {
+    display: grid;
+
+}
+
+.testimonials {
+    display: grid;
+    place-items: center;
+    gap: 18px;
+}
+
+.slide {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 18px;
+    gap: 20px;
+}
+
+.card-slides {
+    min-width: 504px;
+    min-height: 185px;
+    background: #161312;
+    color: #f5f5f5;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
+
+.card-slides p {
+    font-size: 15px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 15px;
+    margin-top: 3em;
+}
+
+.user-pro {
+    display: grid;
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.user-pro p span {
+    font-weight: bold;
+}
+
+
+@media (max-width:1300px) {
+    .background-circle {
+        left: -.1em;
+    }
+
+
+}
+
+@media (max-width:1100px) {
+
+    .tools-skills {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .background-circle {
+        left: -1.5em;
+    }
+
+    .left-tools,
+    .right-tools {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+
+
+    .global-talent {
+        flex-direction: column;
+        padding: 0 15%;
+        justify-items: center;
+    }
+
+    .global-talent .left {
+        width: 100%;
+    }
+}
+
+@media (max-width:900px) {
+    .to-left {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .background-circle {
+        left: -5em;
+
+    }
+
+
+
+    .user-info {
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width:700px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .background-circle {
+        left: -12em;
+    }
+
+    .background-tools {
+        width: 400px;
+    }
+
+    .skill-set-bord {
+        left: 260px;
+    }
+
+    .right-tools {
+        left: 0;
+        padding: 20px;
+    }
+
+    .slide {
+        gap: 5px;
+    }
+
+    .global-talent .left {
+        width: 400px;
+    }
+
+}
+
+@media (max-width:470px) {
+    .right img {
+        width: 300px;
+    }
+
+    .background-tools {
+        position: relative;
+        right: 150px;
+
+    }
+
+    .background-circle {
+        left: calc(-50%, 50%)
+    }
+
+    .global-talent .left {
+        width: 300px;
+    }
+}

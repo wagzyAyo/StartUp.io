@@ -1,0 +1,36 @@
+.job-nav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.filter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #f5f5f5;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    position: relative;
+    left: 9px;
+}
+
+.search input {
+    padding: 3em 25em;
+    background: #D9D9D9;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+
+}
+
+
+.load-center {
+    display: grid;
+    place-items: center;
+    margin-top: 18px;
+}

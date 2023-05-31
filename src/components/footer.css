@@ -1,0 +1,50 @@
+.footer-container {
+    margin-top: 36px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    left: 5em;
+}
+
+.apple,
+.twitter,
+.slack,
+.dribble {
+    cursor: pointer;
+}
+
+.footer-container {
+    display: grid;
+    justify-content: center;
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.footer-foot {
+    background-color: #CCD6DD;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 52px;
+    justify-content: center;
+    gap: 18px;
+}
+
+@media (max-width:700px) {
+
+    .apple,
+    .twitter img {
+        min-width: 20px
+    }
+}
