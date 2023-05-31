@@ -167,10 +167,14 @@
             width: 380px;
         }
 
+        .test-stats {
+            width: 365px;
+        }
+
         .test-stats2 {
             height: 101px;
             width: 190px;
-            right: -6em;
+            right: .2em;
         }
 
         .test-stats2 p {
