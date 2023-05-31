@@ -412,4 +412,14 @@
     .global-talent .left {
         width: 300px;
     }
+
+    .card-slides {
+        display: none;
+    }
+
+    .background-circle {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+    }
 }
