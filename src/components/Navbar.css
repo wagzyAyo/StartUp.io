@@ -94,6 +94,6 @@ button {
     }
 
     .Nav-container {
-        position: fixed;
+        position: sticky;
     }
 }
