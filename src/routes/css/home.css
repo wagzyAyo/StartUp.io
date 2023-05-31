@@ -406,7 +406,7 @@
     }
 
     .background-circle {
-        left: calc(-50%, 50%);
+        right: -10em;
         overflow: hidden;
     }
 
