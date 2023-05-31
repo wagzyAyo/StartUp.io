@@ -43,8 +43,8 @@
 
 @media (max-width:700px) {
 
-    .apple,
-    .twitter img {
-        min-width: 20px
+
+    .dribble {
+        display: none;
     }
 }

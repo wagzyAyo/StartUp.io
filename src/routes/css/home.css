@@ -272,6 +272,12 @@
     gap: 20px;
 }
 
+.carousel {
+    margin: 0 10%;
+    overflow: hidden;
+    cursor: grab;
+}
+
 .card-slides {
     min-width: 504px;
     min-height: 185px;
@@ -279,6 +285,7 @@
     color: #f5f5f5;
     border-radius: 10px;
     padding: 5px 40px;
+
 }
 
 .card-slides p {
@@ -405,17 +412,13 @@
 
     }
 
-    .background-circle {
-        left: -20em;
-    }
-
     .global-talent .left {
         width: 300px;
     }
 
 
     .testimonials h3 {
-        font-size: 12px
+        font-size: 14px
     }
 
     .background-circle {
