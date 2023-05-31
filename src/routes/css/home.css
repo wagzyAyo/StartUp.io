@@ -419,9 +419,6 @@
     }
 
     .background-circle {
-        position: absolute;
-        width: 323x;
-        height: 323x;
-        right: calc(-50%)
+        left: -16em;
     }
 }

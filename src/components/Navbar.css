@@ -86,3 +86,9 @@ button {
         right: 45%;
     }
 }
+
+@media (max-width:470px) {
+    .Nav-container {
+        padding: 13px 5%;
+    }
+}
