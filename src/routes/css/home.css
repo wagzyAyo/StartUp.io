@@ -406,16 +406,16 @@
     }
 
     .background-circle {
-        left: 0;
+        left: -20em;
     }
 
     .global-talent .left {
         width: 300px;
     }
 
-    .card-slides,
-    .testimonials {
-        display: none;
+
+    .testimonials h3 {
+        font-size: 12px
     }
 
     .background-circle {

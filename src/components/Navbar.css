@@ -68,12 +68,10 @@ button {
         top: 0;
         right: -700px;
         transition: 1s;
-        overflow: hidden;
     }
 
     .Nav-container .responsive_nav {
         right: -130px;
-        display: block;
     }
 
     .Nav-Links .nav-items2 {
