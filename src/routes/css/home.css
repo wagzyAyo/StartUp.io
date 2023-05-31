@@ -402,6 +402,10 @@
 }
 
 @media (max-width:470px) {
+    .to-left h2 {
+        font-size: 25px;
+    }
+
     .right img {
         width: 300px;
     }
