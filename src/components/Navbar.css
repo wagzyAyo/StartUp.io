@@ -66,8 +66,7 @@ button {
         top: 0;
         right: -700px;
         transition: 1s;
-        overflow: hidden;
-        display: none;
+
     }
 
     .Nav-container .responsive_nav {
@@ -91,10 +90,5 @@ button {
 @media (max-width:470px) {
     .Nav-container {
         justify-content: center;
-        padding: 13px 10%;
-    }
-
-    .Nav-container {
-        position: sticky;
     }
 }
