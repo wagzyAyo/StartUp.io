@@ -19,11 +19,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-  const [width, setWidth] = useState(0);
-  const carousel = useRef();
-  useEffect(() => {
-    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
-  }, []);
+
 
 
 
