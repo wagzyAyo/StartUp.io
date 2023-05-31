@@ -170,8 +170,7 @@
         .test-stats2 {
             height: 101px;
             width: 190px;
-            position: relative;
-            right: calc(-50%, 50%)
+            right: -6em;
         }
 
         .test-stats2 p {
