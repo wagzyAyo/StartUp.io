@@ -413,8 +413,9 @@
         width: 300px;
     }
 
-    .testimonials h3 {
-        font-size: 12px;
+    .card-slides,
+    .testimonials {
+        display: none;
     }
 
     .background-circle {
