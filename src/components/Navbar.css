@@ -67,6 +67,7 @@ button {
         right: -700px;
         transition: 1s;
         overflow: hidden;
+        display: none;
     }
 
     .Nav-container .responsive_nav {
