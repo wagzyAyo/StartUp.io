@@ -90,5 +90,6 @@ button {
 @media (max-width:470px) {
     .Nav-container {
         justify-content: center;
+        align-items: center;
     }
 }
