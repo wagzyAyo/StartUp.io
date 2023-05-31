@@ -363,7 +363,7 @@ const Home = () => {
         <h5>Our job seekers said</h5>
       </div>
       <motion.div ref={carousel} className='carousel'>
-        <motion.div drag="x" dragConstraints={{ right: 0, left: - width }} className='slide'>
+        <motion.div drag="x" dragConstraints={{ right: 0, left: - width, overflowX: "scroll" }} className='slide'>
           <div className='card-slides'>
             <p> “If you're looking for the best talent from around the world, look no further! We've got over 150 countries represented, so you're sure to find the perfect fit for your team.”
             </p>
