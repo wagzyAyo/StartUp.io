@@ -18,7 +18,7 @@ const career = () => {
         </div>
 
         <div className='career-right'>
-          <img src={Magnet} style={{ width: "512px", height: "321px", flexShrink: "1" }} />
+          <img src={Magnet} style={{ width: "312px" }} />
 
         </div>
 

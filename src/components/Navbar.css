@@ -48,6 +48,11 @@ button {
 }
 
 @media (max-width:700px) {
+    .Nav-container {
+        justify-content: center;
+        align-items: center;
+    }
+
     .nav-items {
         display: none;
     }
@@ -64,13 +69,13 @@ button {
         padding: 20px;
         position: relative;
         top: 0;
-        right: -700px;
+        left: -700px;
         transition: 1s;
 
     }
 
     .Nav-container .responsive_nav {
-        right: -130px;
+        left: -130px;
     }
 
     .Nav-Links .nav-items2 {
@@ -84,11 +89,5 @@ button {
     .nav_close {
         position: relative;
         right: 45%;
-    }
-}
-
-@media (max-width:470px) {
-    .Nav-container {
-        justify-content: center;
     }
 }
