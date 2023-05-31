@@ -352,7 +352,7 @@ const Home = () => {
         </div>
 
         <div className='right'>
-          <img src={Map} style={{ width: "422px" }} />
+          <img src={Map} style={{ width: "400px" }} />
         </div>
 
       </div>

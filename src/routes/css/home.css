@@ -413,12 +413,13 @@
         width: 300px;
     }
 
+    .card-slides,
     .testimonials {
         display: none;
     }
 
     .background-circle {
-        position: absolute;
+        position: relative;
         width: 323x;
         height: 323x;
     }
