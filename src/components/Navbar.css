@@ -86,10 +86,3 @@ button {
         right: 45%;
     }
 }
-
-@media (max-width:470px) {
-    .Nav-container {
-        justify-content: center;
-        align-items: center;
-    }
-}
