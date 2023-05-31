@@ -407,7 +407,7 @@
 
     .background-circle {
         left: 0;
-        overflow: hidden;
+        display: none;
     }
 
     .global-talent .left {
