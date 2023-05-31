@@ -358,63 +358,6 @@ const Home = () => {
       </div>
 
 
-      <div className="testimonials">
-        <h3>Dont take our word for it listen to our job seekers</h3>
-        <h5>Our job seekers said</h5>
-      </div>
-      <motion.div ref={carousel} className='carousel'>
-        <motion.div drag="x" dragConstraints={{ right: 0, left: - width, overflowX: "scroll" }} className='slide'>
-          <div className='card-slides'>
-            <p> “If you're looking for the best talent from around the world, look no further! We've got over 150 countries represented, so you're sure to find the perfect fit for your team.”
-            </p>
-            <div className='user-info'>
-              <img src={Micheal} style={{ width: "78px", height: "51px" }} />
-              <div className='user-pro'>
-                <h5>Micheal oliva </h5>
-                <p>Ui /Ux designer <span> Apple.inc </span></p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-
-
-          <div className='card-slides'>
-            <p> “If you're looking for the best talent from around the world, look no further! We've got over 150 countries represented, so you're sure to find the perfect fit for your team.”
-            </p>
-            <div className='user-info'>
-              <img src={Tom} style={{ width: "78px", height: "51px" }} />
-              <div className='user-pro'>
-                <h5>Tom Chris </h5>
-                <p>Ui /Ux designer <span> Facebook </span></p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <div className='card-slides'>
-            <p> “If you're looking for the best talent from around the world, look no further! We've got over 150 countries represented, so you're sure to find the perfect fit for your team.”
-            </p>
-            <div className='user-info'>
-              <img src={Brown} style={{ width: "78px", height: "51px", }} />
-              <div className='user-pro'>
-                <h5>Brown Abi </h5>
-                <p>Ui /Ux designer <span> Google </span></p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-
-        </motion.div>
-      </motion.div>
       <Footer />
     </>
   )
