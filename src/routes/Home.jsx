@@ -41,7 +41,7 @@ const Home = () => {
         <div className='to-right'>
           <div className='background-circle'> </div>
           <div className='hero-image'>
-            <img src={Hero} style={{ width: "415px", height: "459px" }} />
+            <img src={Hero} />
           </div>
         </div>
       </div>
@@ -352,7 +352,7 @@ const Home = () => {
         </div>
 
         <div className='right'>
-          <img src={Map} style={{ width: "400px" }} />
+          <img src={Map} />
         </div>
 
       </div>

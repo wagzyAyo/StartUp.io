@@ -6,9 +6,33 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 5%;
     position: relative;
-    left: 5em;
+}
+
+.apple {
+    width: 64px;
+    height: 86px;
+}
+
+.twitter {
+    width: 73px;
+    height: 75px;
+}
+
+.slack {
+    width: 190px;
+    height: 48px;
+}
+
+.dribble {
+    width: 190px;
+    height: 47px;
+}
+
+.brands img {
+    width: 100%;
+    size: 100%;
 }
 
 .apple,
@@ -48,6 +72,27 @@
     }
 
     .brands {
-        display: none;
+        padding: 20px 15%;
     }
+
+    .apple {
+        width: 17px;
+        height: 23px;
+    }
+
+    .twitter {
+        width: 20px;
+        height: 20px;
+    }
+
+    .slack {
+        width: 52px;
+        height: 13px;
+    }
+
+    .dribble {
+        width: 52px;
+        height: 13px;
+    }
+
 }

@@ -14,17 +14,17 @@ const footer = () => {
     return (
         <div className='footer-container'>
             <div className='brands'>
-                <div >
-                    <img className="apple" src={Apple} style={{ maxWidth: "45%" }} />
+                <div className="apple" >
+                    <img src={Apple} />
                 </div>
                 <div className="twitter">
-                    <img src={Twitter} style={{ maxWidth: "45%" }} />
+                    <img src={Twitter} />
                 </div>
                 <div className="slack">
-                    <img src={Slack} style={{ maxWidth: "40%", height: "auto" }} />
+                    <img src={Slack} />
                 </div>
                 <div className="dribble">
-                    <img src={Dribble} style={{ maxWidth: "40%", height: "auto" }} />
+                    <img src={Dribble} />
                 </div>
             </div>
 
