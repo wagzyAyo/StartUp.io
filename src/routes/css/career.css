@@ -153,22 +153,19 @@
         }
 
         .career-left {
-
-            padding-right: 5em;
+            position: relative;
+            left: 20em;
         }
 
         .test-stats {
-            width: 400px;
+            width: 340px;
+            padding: 10px 5%;
 
         }
 
         .test-stats p {
             font-size: 12px;
-            width: 380px;
-        }
-
-        .test-stats {
-            width: 365px;
+            width: 300px;
         }
 
         .test-stats2 {
@@ -178,10 +175,29 @@
         }
 
         .test-stats2 p {
-            font-size: 12px;
+            font-size: 10px;
             width: 165px;
 
         }
 
     }
+}
+
+@media (max-width:470px) {
+
+    .test-stats {
+        width: 365px;
+        padding: 10px 5%;
+
+    }
+
+    .left-stat {
+        position: relative;
+        left: -4.7em;
+    }
+
+    .test-stats2 {
+        right: -2em;
+    }
+
 }

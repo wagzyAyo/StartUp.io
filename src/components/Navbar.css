@@ -54,6 +54,7 @@ button {
 
     .nav_btn {
         display: block;
+
     }
 
     .Nav-Links {
@@ -70,7 +71,7 @@ button {
     }
 
     .Nav-container .responsive_nav {
-        right: -100px;
+        right: -130px;
     }
 
     .Nav-Links .nav-items2 {
@@ -89,6 +90,6 @@ button {
 
 @media (max-width:470px) {
     .Nav-container {
-        padding: 13px 15%;
+        padding: 13px 10%;
     }
 }
