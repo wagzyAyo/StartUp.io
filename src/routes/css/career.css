@@ -171,7 +171,7 @@
         .test-stats2 {
             height: 101px;
             width: 190px;
-            right: .2em;
+            right: -3.2em;
         }
 
         .test-stats2 p {
@@ -186,14 +186,14 @@
 @media (max-width:470px) {
 
     .test-stats {
-        width: 365px;
+        width: 320px;
         padding: 10px 5%;
 
     }
 
     .left-stat {
         position: relative;
-        left: -4.7em;
+        left: -4.3em;
     }
 
     .test-stats2 {

@@ -193,3 +193,13 @@
 
     }
 }
+
+@media (max-width:470px) {
+    .experience-flex {
+        display: none;
+    }
+
+    .education {
+        display: none;
+    }
+}
