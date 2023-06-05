@@ -76,9 +76,9 @@ const profile = () => {
 
               <div className='job-detail'>
                 <div className='job-location'>
-                  <div className='icon'><Work style={{ width: "24px", height: "20px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
+                  <div className='icon'><Work style={{ width: "18px", height: "14px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
                   <p>Apple inc.</p>
-                  <div className='icon'><Location style={{ width: "24px", height: "20px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
+                  <div className='icon'><Location style={{ width: "18px", height: "14px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
                   <p>Los Angeles, CA</p>
 
                 </div>
@@ -95,9 +95,9 @@ const profile = () => {
 
               <div className='job-detail'>
                 <div className='job-location'>
-                  <div className='icon'><Work style={{ width: "24px", height: "20px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
+                  <div className='icon'><Work style={{ width: "18px", height: "14px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
                   <p>Twitter</p>
-                  <div className='icon'><Location style={{ width: "24px", height: "20px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
+                  <div className='icon'><Location style={{ width: "18px", height: "14px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
                   <p>Los Angeles, CA</p>
 
                 </div>
@@ -114,9 +114,9 @@ const profile = () => {
 
               <div className='job-detail'>
                 <div className='job-location'>
-                  <div className='icon'><Work style={{ width: "24px", height: "20px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
+                  <div className='icon'><Work style={{ width: "18px", height: "14px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
                   <p>Figma</p>
-                  <div className='icon'><Location style={{ width: "24px", height: "20px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
+                  <div className='icon'><Location style={{ width: "18px", height: "14px", display: "flex", alignItems: "center", color: "#D9D9D9" }} /></div>
                   <p>Los Angeles, CA</p>
 
                 </div>

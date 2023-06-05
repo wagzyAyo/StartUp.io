@@ -8,6 +8,7 @@
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 36px;
+
 }
 
 .Profile-left {
@@ -49,7 +50,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 18px;
-    width: 734px;
     width: 60%;
     margin-top: 72px;
 }
@@ -62,6 +62,7 @@
 .experience-flex {
     display: grid;
     gap: 18px;
+    place-content: center;
 }
 
 .experience-layout {
@@ -75,7 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 734px;
+    gap: 9em;
 }
 
 .banner {
@@ -162,6 +163,12 @@
 
 @media (max-width:700px) {
 
+    .profile-right h2,
+    .profile-right p {
+        position: inherit;
+        left: -2em;
+    }
+
     .job-location {
         position: relative;
         font-size: 12px;
@@ -195,11 +202,54 @@
 }
 
 @media (max-width:470px) {
-    .experience-flex {
-        display: none;
+    .profile-flex {
+        overflow-x: hidden;
+    }
+
+    .Profile-left {
+        position: relative;
+        left: -2em;
+    }
+
+    .experience-top h4 {
+        font-size: 14px;
+        min-width: 200px;
+        position: relative;
+        left: -7em;
+    }
+
+    .experience-flex h2 {
+        position: relative;
+        left: -2em;
+    }
+
+    .experience-top .banner {
+        position: relative;
+        left: -17em;
+    }
+
+    .line2 {
+        width: 360px;
+    }
+
+    .job-location {
+        position: relative;
+        left: 1em;
+        gap: 2px;
+    }
+
+    .job-location p,
+    .date {
+        font-size: 9px;
     }
 
     .education {
-        display: none;
+        position: inherit;
+        left: -2em;
+    }
+
+    .education .date {
+        position: inherit;
+        right: 2em;
     }
 }
